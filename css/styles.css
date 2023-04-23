@@ -1,0 +1,150 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark-grey: #2e2f42;
+  --text: #434455;
+  --cloud: #f4f4fd;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand);
+  text-transform: uppercase;
+}
+
+.header-logo {
+  color: var(--dark-grey);
+}
+
+.footer-logo,
+.footer-text {
+  color: var(--cloud);
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark-grey);
+}
+
+.address-list,
+.address-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.nav-item:focus,
+.nav-item:hover,
+.address-item:focus,
+.address-item:hover {
+  color: var(--pressed-state);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.heading-main {
+  color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.heading-second {
+  color: var(--dark-grey);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.heading-third {
+  color: var(--dark-grey);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.p-text {
+  font-size: 16px;
+  color: var(--text);
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.order {
+  color: #fff;
+  background-color: var(--primary-brand);
+}
+
+.order:focus,
+.order:hover {
+  background-color: var(--pressed-state);
+}
+
+.filter {
+  color: var(--primary-brand);
+  background-color: var(--cloud);
+}
+
+.filter:focus,
+.filter:hover {
+  color: #fff;
+  background-color: var(--pressed-state);
+}
+
+.footer {
+  background-color: var(--dark-grey);
+}
+
+.hero-section {
+  background-color: var(--dark-grey);
+}
+
+.advant-section {
+}
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-card {
+  background-color: #ffffff;
+}
