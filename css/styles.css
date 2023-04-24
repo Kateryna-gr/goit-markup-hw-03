@@ -251,7 +251,6 @@ button {
 .flex-container {
   display: flex;
   gap: 24px;
-  row-gap: 48px;
 }
 
 .flex-container-advant {
