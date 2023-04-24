@@ -265,7 +265,7 @@ button {
 .works-section {
   padding-top: 96px;
   padding-bottom: 120px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .filter-list {
