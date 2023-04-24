@@ -5,8 +5,8 @@
   --text: #434455;
   --cloud: #f4f4fd;
 
-  --indent: 24px;
-  --items: 9;
+  /* --indent: 24px;
+  --items: 9; */
 }
 
 body {
@@ -250,7 +250,7 @@ button {
 
 .flex-container {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   row-gap: 48px;
 }
 
@@ -262,12 +262,10 @@ button {
   width: calc((100% - 48px) / 3);
 }
 
-.works-container {
-  width: 1158px;
-  margin: 0 auto;
+.works-section {
   padding-top: 96px;
   padding-bottom: 120px;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 .filter-list {
@@ -280,7 +278,8 @@ button {
 .works-list {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--indent);
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .works-list-items {
