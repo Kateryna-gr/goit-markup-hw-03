@@ -49,7 +49,7 @@ button {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-inline-start: 0 15px;
+  padding: 0 15px;
   /* outline: 1px solid red; */
 }
 
@@ -96,9 +96,13 @@ button {
   color: var(--cloud);
 }
 
+.footer-logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-text {
   width: 264px;
-  margin-top: 16px;
 }
 
 .nav-item {
@@ -131,7 +135,7 @@ button {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -175,8 +179,9 @@ button {
 .order {
   color: #fff;
   background-color: var(--primary-brand);
-  min-width: 165px;
-  min-height: 52px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   padding: 16px 32px;
   border-radius: 4px;
   display: block;
@@ -202,6 +207,7 @@ button {
 .filter:hover {
   color: #fff;
   background-color: var(--pressed-state);
+  border: 1px solid transparent;
 }
 
 .footer {
@@ -224,44 +230,66 @@ button {
 
 .team-card {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.team-card > h3 {
+.worker {
+  padding: 32px 16px;
+}
+
+.worker-name {
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
-.card-text {
+.worker-position {
   text-align: center;
   padding-bottom: 32px;
 }
 
 .flex-container {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.flex-container-advant {
+  width: calc((100% - 72px) / 4);
+}
+
+.flex-container-doing {
+  width: calc((100% - 48px) / 3);
+}
+
+.works-container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-top: 96px;
+  padding-bottom: 120px;
+  /* outline: 1px solid red; */
 }
 
 .filter-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 96px;
+  margin-bottom: 72px;
 }
 
 .works-list {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
-  padding: 72px 0;
 }
 
 .works-list-items {
-  flex-basis: calc(100% - var(--indent) * (var(--items) - 1) / var(--items));
+  width: calc((100% - 48px) / 3);
 }
 
 .works-card {
   padding: 32px 16px;
   margin-bottom: 48px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
